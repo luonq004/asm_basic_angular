@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "sasdasda",
+      "price": 799,
+      "imageUrl": "https://via.placeholder.com/150",
+      "description": "A large phone with one of the best screens"
+    },
+    {
+      "id": 2,
+      "name": "Phone Mini",
+      "price": 699,
+      "description": "A great phone with one of the best cameras",
+      "imageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "Phone Standard",
+      "price": 299,
+      "imageUrl": "https://via.placeholder.com/150",
+      "description": "ok"
+    },
+    {
+      "name": "gjlfdgjfdglfdgj",
+      "price": "87493",
+      "description": "kdfjghkfdghk",
+      "imageUrl": "32432",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "aasdsadasd",
+      "price": "123123",
+      "imageUrl": "2342343",
+      "description": "dfgdfgd"
+    },
+    {
+      "name": "asdasdasd",
+      "price": "12312312",
+      "description": "dgfdfhgfhfdf",
+      "imageUrl": "ghfghgfhgf",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "email": "luong@gmail.com",
+      "password": "$2a$10$jDUKlp95eTL4qyWgPc8E3O10/O0bopipMYEY4LkqyjYRCDEpE8V5i",
+      "confirmPassword": "luong1234",
+      "id": 1
+    },
+    {
+      "email": "long@gmail.com",
+      "password": "$2a$10$tqB8hGOkE2292t8BS0G3U.CKnKV9MsZI9QFYlkEDtUpmjToJgEBBW",
+      "confirmPassword": "luong123",
+      "id": 2
+    }
+  ]
+}

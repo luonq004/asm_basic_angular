@@ -1,0 +1,45 @@
+<div class="d-flex justify-content-between mb-4">
+  <h1>Product List</h1>
+
+  <button class="btn btn-success">
+    <a class="text-white text-decoration-none" routerLink="/add">Add Product</a>
+  </button>
+</div>
+
+<table class="table border">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Image URL</th>
+      <th>Description</th>
+      <td></td>
+    </tr>
+  </thead>
+  <tbody>
+    @for(product of products; track product.id) {
+    <tr>
+      <td>{{ product.id }}</td>
+      <td>{{ product.name }}</td>
+      <td>{{ product.price }}</td>
+      <td>{{ product.imageUrl }}</td>
+      <td>{{ product.description }}</td>
+      <td class="d-flex gap-4">
+        <button class="btn btn-primary">
+          <a
+            class="text-white text-decoration-none"
+            [routerLink]="['/edit', product.id]"
+            >Edit</a
+          >
+        </button>
+        <button class="btn btn-danger" (click)="deleteItem(product.id)">
+          Delete
+        </button>
+      </td>
+    </tr>
+    }
+  </tbody>
+</table>
+
+<button (click)="logout()" class="btn btn-warning">Logout</button>
