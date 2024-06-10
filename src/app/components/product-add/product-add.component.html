@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="mb-3">
-      <label class="form-label">Password</label>
+      <label class="form-label">Price</label>
       <input type="number" class="form-control" formControlName="price" />
       <div
         *ngIf="
@@ -38,7 +38,7 @@
         <span
           class="text-danger"
           *ngIf="form.get('price')?.hasError('required')"
-          >Trường Name là bắt buộc</span
+          >Trường Price là bắt buộc</span
         >
         <span class="text-danger" *ngIf="form.get('price')?.hasError('min')"
           >Trường Price không được để âm</span
